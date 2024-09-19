@@ -33,7 +33,7 @@ A simple C++ program that converts an image to ASCII art using OpenCV. This tool
 
    Follow the [OpenCV installation guide](https://docs.opencv.org/master/d7/d9f/tutorial_linux_install.html) for your operating system.
 
-3. **Build the project using Make:**
+3. **Installation**
 
    ```bash
    chmod +x install.sh
