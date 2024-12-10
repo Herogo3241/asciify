@@ -3,7 +3,7 @@
 #include <opencv2/opencv.hpp>
 #include <string>
 
-std::string asciiChars = "@%#*+=-:. ";
+const char *asciiChars = "@%#*+=-:. ";
 
 std::string pixelToAscii(int pixelValue) {
   int index = asciiChars.size() - ((pixelValue)*asciiChars.size() / 255);
