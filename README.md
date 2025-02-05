@@ -64,7 +64,7 @@ asciify --image <image_path> [--size <width>]
 2. **Convert an image with a specified width:**
 
    ```bash
-   asciify --image path_to_image.jpg --size 100
+   asciify --image <path_to_image> --size <specify_size>
    ```
 
 ## Makefile
